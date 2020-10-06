@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var days = parseInt(prompt("Ingrese la cantidad de dias"));
+        if (days > 0){
+            var year = Math.floor (days/365);
+            var weeks = Math.floor ((days%365) / 7);
+            var days = Math.floor ((days%365) % 7);
+
+            console.log ( "años", year);
+            console.log ( "semanas", weeks,);
+            console.log ("dias", days);
+        
+        } 
+        else {
+            var days = parseInt(prompt("Ingrese la cantidad de dias"))
+        }
+
+
+
+    </script>
+
+
+</body>
+</html>
